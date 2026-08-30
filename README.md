@@ -1,6 +1,6 @@
 # KIMIA UTAMA SARI E-COMMERCE
 
-<p align="center">
+<p align="center text-center">
   <strong>Sistem Penjualan Online Berbasis Web (E-Commerce)</strong>
 </p>
 
