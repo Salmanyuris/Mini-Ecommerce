@@ -45,7 +45,7 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 ### 👨‍💼 Administrator
 
-- Dashboard administrator
+- Dashboard admin
 - Manajemen produk
     - Tambah produk
     - Edit produk
