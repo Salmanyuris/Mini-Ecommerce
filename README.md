@@ -88,7 +88,7 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 Pastikan perangkat telah memiliki:
 
-- PHP 8.2 atau versi yang sesuai dengan Laravel
+- PHP 8.2 atau versi diatasnya yang sesuai dengan Laravel
 - Composer
 - MySQL atau MariaDB
 - Node.js
