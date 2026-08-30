@@ -1,10 +1,6 @@
 # KIMIA UTAMA SARI E-COMMERCE
 
 <p align="center">
-  <img src="public/images/logo.png" alt="Kimia Utama Sari Logo" width="180">
-</p>
-
-<p align="center">
   <strong>Sistem Penjualan Online Berbasis Web (E-Commerce)</strong>
 </p>
 
@@ -32,44 +28,44 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 ### 👤 Konsumen
 
-* Registrasi akun
-* Login dan logout
-* Melihat katalog produk
-* Mencari produk
-* Melihat detail produk
-* Menambahkan produk ke keranjang
-* Mengubah jumlah produk dalam keranjang
-* Menghapus produk dari keranjang
-* Melakukan checkout
-* Mengisi informasi pengiriman
-* Mengunggah bukti pembayaran
-* Melihat riwayat pesanan
-* Melihat status pesanan
-* Mengonfirmasi penerimaan barang
+- Registrasi akun
+- Login dan logout
+- Melihat katalog produk
+- Mencari produk
+- Melihat detail produk
+- Menambahkan produk ke keranjang
+- Mengubah jumlah produk dalam keranjang
+- Menghapus produk dari keranjang
+- Melakukan checkout
+- Mengisi informasi pengiriman
+- Mengunggah bukti pembayaran
+- Melihat riwayat pesanan
+- Melihat status pesanan
+- Mengonfirmasi penerimaan barang
 
 ### 👨‍💼 Administrator
 
-* Dashboard administrator
-* Manajemen produk
+- Dashboard administrator
+- Manajemen produk
+    - Tambah produk
+    - Edit produk
+    - Hapus produk
 
-  * Tambah produk
-  * Edit produk
-  * Hapus produk
-* Manajemen kategori
-* Manajemen pesanan
-* Verifikasi pembayaran
-* Pembatalan pesanan
-* Update status pesanan
-* Input informasi pengiriman dan nomor resi
-* Manajemen pengguna
-* Monitoring transaksi
+- Manajemen kategori
+- Manajemen pesanan
+- Verifikasi pembayaran
+- Pembatalan pesanan
+- Update status pesanan
+- Input informasi pengiriman dan nomor resi
+- Manajemen pengguna
+- Monitoring transaksi
 
 ### 📊 Pemilik / Owner
 
-* Melihat laporan penjualan
-* Monitoring transaksi
-* Melihat informasi pesanan
-* Melakukan evaluasi aktivitas penjualan
+- Melihat laporan penjualan
+- Monitoring transaksi
+- Melihat informasi pesanan
+- Melakukan evaluasi aktivitas penjualan
 
 ---
 
@@ -92,12 +88,12 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 Pastikan perangkat telah memiliki:
 
-* PHP 8.2 atau versi yang sesuai dengan Laravel
-* Composer
-* MySQL atau MariaDB
-* Node.js
-* NPM
-* Git
+- PHP 8.2 atau versi yang sesuai dengan Laravel
+- Composer
+- MySQL atau MariaDB
+- Node.js
+- NPM
+- Git
 
 ---
 
@@ -333,20 +329,20 @@ Pengujian sistem dilakukan menggunakan metode **User Acceptance Testing (UAT)**.
 
 Pengujian dilakukan terhadap beberapa modul utama, antara lain:
 
-| No | Modul                      |
-| -- | -------------------------- |
-| 1  | Autentikasi                |
-| 2  | Katalog Produk             |
-| 3  | Pencarian Produk           |
-| 4  | Keranjang Belanja          |
-| 5  | Checkout                   |
-| 6  | Pembayaran                 |
-| 7  | Riwayat Pesanan            |
-| 8  | Manajemen Produk           |
-| 9  | Manajemen Kategori         |
-| 10 | Manajemen Pesanan          |
-| 11 | Manajemen Pengguna         |
-| 12 | Keamanan dan Kontrol Akses |
+| No  | Modul                      |
+| --- | -------------------------- |
+| 1   | Autentikasi                |
+| 2   | Katalog Produk             |
+| 3   | Pencarian Produk           |
+| 4   | Keranjang Belanja          |
+| 5   | Checkout                   |
+| 6   | Pembayaran                 |
+| 7   | Riwayat Pesanan            |
+| 8   | Manajemen Produk           |
+| 9   | Manajemen Kategori         |
+| 10  | Manajemen Pesanan          |
+| 11  | Manajemen Pengguna         |
+| 12  | Keamanan dan Kontrol Akses |
 
 Berdasarkan hasil pengujian yang dilakukan, terdapat **37 test case** dan seluruh skenario pengujian berhasil dijalankan sesuai dengan kebutuhan sistem.
 
@@ -356,14 +352,14 @@ Berdasarkan hasil pengujian yang dilakukan, terdapat **37 test case** dan seluru
 
 Sistem menerapkan beberapa mekanisme keamanan, antara lain:
 
-* Autentikasi pengguna
-* Pembatasan akses berdasarkan role
-* Middleware autentikasi
-* Middleware administrator
-* Validasi input
-* Validasi upload file
-* Proteksi halaman administrator
-* Manajemen session Laravel
+- Autentikasi pengguna
+- Pembatasan akses berdasarkan role
+- Middleware autentikasi
+- Middleware administrator
+- Validasi input
+- Validasi upload file
+- Proteksi halaman administrator
+- Manajemen session Laravel
 
 ---
 
@@ -410,13 +406,13 @@ Pemeliharaan sistem dilakukan secara berkala untuk menjaga stabilitas dan keaman
 
 Beberapa aktivitas maintenance meliputi:
 
-* Backup database secara berkala
-* Backup file produk dan bukti pembayaran
-* Pemantauan log error
-* Pembaruan dependency
-* Perbaikan bug
-* Optimasi performa sistem
-* Penambahan fitur sesuai kebutuhan bisnis
+- Backup database secara berkala
+- Backup file produk dan bukti pembayaran
+- Pemantauan log error
+- Pembaruan dependency
+- Perbaikan bug
+- Optimasi performa sistem
+- Penambahan fitur sesuai kebutuhan bisnis
 
 Log Laravel dapat ditemukan pada:
 
