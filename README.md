@@ -1,8 +1,8 @@
 # KIMIA UTAMA SARI E-COMMERCE
 
-<p align="center text-center">
-  <strong>Sistem Penjualan Online Berbasis Web (E-Commerce)</strong>
-</p>
+<h1 align="center">
+  Sistem Penjualan Online Berbasis Web (E-Commerce)
+</h1>
 
 <p align="center">
   Dibangun menggunakan Laravel, MySQL, Tailwind CSS, dan Vite.
