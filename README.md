@@ -20,7 +20,7 @@ Sistem ini dikembangkan sebagai bagian dari penelitian dengan judul:
 
 Aplikasi ini memungkinkan konsumen untuk melihat produk, mencari produk, memasukkan produk ke keranjang belanja, melakukan checkout, serta mengunggah bukti pembayaran.
 
-Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, serta melakukan verifikasi pembayaran. Sistem juga menyediakan laporan penjualan untuk membantu pemilik dalam melakukan monitoring terhadap aktivitas penjualan.
+Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, serta melakukan verifikasi pembayaran. Sistem juga menyediakan laporan penjualan untuk membantu pemilik dalam melakukan monitoring terhadap aktivitas penjualan toko.
 
 ---
 
