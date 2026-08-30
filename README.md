@@ -71,16 +71,16 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Teknologi    | Fungsi                     |
-| ------------ | -------------------------- |
-| PHP          | Bahasa pemrograman backend |
-| Laravel      | Framework utama aplikasi   |
-| MySQL        | Database management system |
-| Blade        | Template engine            |
-| Tailwind CSS | Styling antarmuka          |
-| Vite         | Build tool frontend        |
-| Composer     | Dependency manager PHP     |
-| NPM          | Package manager JavaScript |
+| Teknologi    | Fungsi                      |
+| ------------ | --------------------------  |
+| PHP          | Bahasa pemrograman backend  |
+| Laravel      | Framework utama aplikasi    |
+| MySQL        | Database management system  |
+| Blade        | Template engine             |
+| Tailwind CSS | Styling antarmuka           |
+| Vite         | Build tool frontend         |
+| Composer     | Dependency manager PHP      |
+| NPM          | Package manager JavaScript  |
 
 ---
 
