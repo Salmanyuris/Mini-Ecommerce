@@ -1,66 +1,446 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# KIMIA UTAMA SARI E-COMMERCE
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/images/logo.png" alt="Kimia Utama Sari Logo" width="180">
 </p>
 
-## About Laravel
+<p align="center">
+  <strong>Sistem Penjualan Online Berbasis Web (E-Commerce)</strong>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  Dibangun menggunakan Laravel, MySQL, Tailwind CSS, dan Vite.
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📖 Tentang Project
 
-## Learning Laravel
+**Kimia Utama Sari E-Commerce** merupakan sistem penjualan online berbasis web yang dikembangkan untuk membantu proses penjualan produk pada **UD. Kimia Utama Sari Kota Semarang**.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Sistem ini dikembangkan sebagai bagian dari penelitian dengan judul:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+> **Rancang Bangun Sistem Penjualan Online Berbasis Web (E-Commerce) Menggunakan Metode Waterfall pada UD. Kimia Utama Sari Kota Semarang**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Aplikasi ini memungkinkan konsumen untuk melihat produk, mencari produk, memasukkan produk ke keranjang belanja, melakukan checkout, serta mengunggah bukti pembayaran.
 
-## Laravel Sponsors
+Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, serta melakukan verifikasi pembayaran. Sistem juga menyediakan laporan penjualan untuk membantu pemilik dalam melakukan monitoring terhadap aktivitas penjualan.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## ✨ Fitur Utama
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 👤 Konsumen
 
-## Contributing
+* Registrasi akun
+* Login dan logout
+* Melihat katalog produk
+* Mencari produk
+* Melihat detail produk
+* Menambahkan produk ke keranjang
+* Mengubah jumlah produk dalam keranjang
+* Menghapus produk dari keranjang
+* Melakukan checkout
+* Mengisi informasi pengiriman
+* Mengunggah bukti pembayaran
+* Melihat riwayat pesanan
+* Melihat status pesanan
+* Mengonfirmasi penerimaan barang
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 👨‍💼 Administrator
 
-## Code of Conduct
+* Dashboard administrator
+* Manajemen produk
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  * Tambah produk
+  * Edit produk
+  * Hapus produk
+* Manajemen kategori
+* Manajemen pesanan
+* Verifikasi pembayaran
+* Pembatalan pesanan
+* Update status pesanan
+* Input informasi pengiriman dan nomor resi
+* Manajemen pengguna
+* Monitoring transaksi
 
-## Security Vulnerabilities
+### 📊 Pemilik / Owner
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+* Melihat laporan penjualan
+* Monitoring transaksi
+* Melihat informasi pesanan
+* Melakukan evaluasi aktivitas penjualan
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi    | Fungsi                     |
+| ------------ | -------------------------- |
+| PHP          | Bahasa pemrograman backend |
+| Laravel      | Framework utama aplikasi   |
+| MySQL        | Database management system |
+| Blade        | Template engine            |
+| Tailwind CSS | Styling antarmuka          |
+| Vite         | Build tool frontend        |
+| Composer     | Dependency manager PHP     |
+| NPM          | Package manager JavaScript |
+
+---
+
+## 📋 Kebutuhan Sistem
+
+Pastikan perangkat telah memiliki:
+
+* PHP 8.2 atau versi yang sesuai dengan Laravel
+* Composer
+* MySQL atau MariaDB
+* Node.js
+* NPM
+* Git
+
+---
+
+## ⚙️ Instalasi Project
+
+### 1. Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+Masuk ke folder project:
+
+```bash
+cd kimia-utama-sari
+```
+
+---
+
+### 2. Install Dependency PHP
+
+```bash
+composer install
+```
+
+---
+
+### 3. Salin File Environment
+
+```bash
+cp .env.example .env
+```
+
+Untuk Windows:
+
+```bash
+copy .env.example .env
+```
+
+---
+
+### 4. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 5. Konfigurasi Database
+
+Buat database MySQL dengan nama:
+
+```text
+kimia_utama_sari
+```
+
+Kemudian sesuaikan konfigurasi database pada file `.env`:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=kimia_utama_sari
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+### 6. Jalankan Migration
+
+```bash
+php artisan migrate
+```
+
+Apabila tersedia database seeder:
+
+```bash
+php artisan migrate --seed
+```
+
+---
+
+### 7. Buat Storage Link
+
+Untuk menampilkan gambar produk dan bukti pembayaran:
+
+```bash
+php artisan storage:link
+```
+
+---
+
+### 8. Install Dependency Frontend
+
+```bash
+npm install
+```
+
+---
+
+### 9. Jalankan Vite
+
+Untuk development:
+
+```bash
+npm run dev
+```
+
+Untuk production:
+
+```bash
+npm run build
+```
+
+---
+
+### 10. Jalankan Aplikasi
+
+```bash
+php artisan serve
+```
+
+Aplikasi dapat diakses melalui:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## 👥 Role Pengguna
+
+Sistem memiliki beberapa role pengguna sebagai berikut:
+
+| Role     | Hak Akses                                         |
+| -------- | ------------------------------------------------- |
+| Konsumen | Melakukan pembelian dan mengelola pesanan pribadi |
+| Admin    | Mengelola produk, kategori, pesanan, dan pengguna |
+| Owner    | Melihat laporan dan monitoring penjualan          |
+
+---
+
+## 🛒 Alur Pembelian
+
+Proses pembelian pada sistem dilakukan melalui tahapan berikut:
+
+```text
+Pilih Produk
+      ↓
+Lihat Detail Produk
+      ↓
+Tambah ke Keranjang
+      ↓
+Kelola Keranjang
+      ↓
+Checkout
+      ↓
+Isi Data Pengiriman
+      ↓
+Upload Bukti Pembayaran
+      ↓
+Pesanan Dibuat
+(Status: Pending)
+      ↓
+Verifikasi Admin
+      ↓
+Pesanan Diproses
+      ↓
+Pengiriman Barang
+      ↓
+Pesanan Diterima
+(Status: Completed)
+```
+
+---
+
+## 📦 Status Pesanan
+
+| Status    | Keterangan                                              |
+| --------- | ------------------------------------------------------- |
+| Pending   | Pesanan telah dibuat dan menunggu verifikasi pembayaran |
+| Paid      | Pembayaran telah diverifikasi                           |
+| Shipped   | Pesanan telah dikirim                                   |
+| Completed | Pesanan telah diterima oleh konsumen                    |
+| Cancelled | Pesanan dibatalkan                                      |
+
+---
+
+## 🗂️ Struktur Project
+
+```text
+kimia-utama-sari/
+│
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   │
+│   └── Models/
+│       ├── User.php
+│       ├── Product.php
+│       ├── Category.php
+│       ├── Cart.php
+│       ├── Order.php
+│       └── OrderItem.php
+│
+├── database/
+│   ├── migrations/
+│   └── seeders/
+│
+├── public/
+│
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│
+├── routes/
+│   └── web.php
+│
+├── storage/
+│
+└── README.md
+```
+
+---
+
+## 🧪 Pengujian Sistem
+
+Pengujian sistem dilakukan menggunakan metode **User Acceptance Testing (UAT)**.
+
+Pengujian dilakukan terhadap beberapa modul utama, antara lain:
+
+| No | Modul                      |
+| -- | -------------------------- |
+| 1  | Autentikasi                |
+| 2  | Katalog Produk             |
+| 3  | Pencarian Produk           |
+| 4  | Keranjang Belanja          |
+| 5  | Checkout                   |
+| 6  | Pembayaran                 |
+| 7  | Riwayat Pesanan            |
+| 8  | Manajemen Produk           |
+| 9  | Manajemen Kategori         |
+| 10 | Manajemen Pesanan          |
+| 11 | Manajemen Pengguna         |
+| 12 | Keamanan dan Kontrol Akses |
+
+Berdasarkan hasil pengujian yang dilakukan, terdapat **37 test case** dan seluruh skenario pengujian berhasil dijalankan sesuai dengan kebutuhan sistem.
+
+---
+
+## 🔒 Keamanan
+
+Sistem menerapkan beberapa mekanisme keamanan, antara lain:
+
+* Autentikasi pengguna
+* Pembatasan akses berdasarkan role
+* Middleware autentikasi
+* Middleware administrator
+* Validasi input
+* Validasi upload file
+* Proteksi halaman administrator
+* Manajemen session Laravel
+
+---
+
+## 🚀 Deployment
+
+Untuk deployment pada server production, beberapa perintah berikut dapat digunakan:
+
+```bash
+composer install --optimize-autoloader --no-dev
+```
+
+```bash
+npm install
+npm run build
+```
+
+```bash
+php artisan migrate --force
+```
+
+```bash
+php artisan storage:link
+```
+
+```bash
+php artisan optimize
+```
+
+Pastikan konfigurasi `.env` pada server production telah disesuaikan.
+
+Contoh:
+
+```env
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://domain-anda.com
+```
+
+---
+
+## 🔧 Maintenance
+
+Pemeliharaan sistem dilakukan secara berkala untuk menjaga stabilitas dan keamanan aplikasi.
+
+Beberapa aktivitas maintenance meliputi:
+
+* Backup database secara berkala
+* Backup file produk dan bukti pembayaran
+* Pemantauan log error
+* Pembaruan dependency
+* Perbaikan bug
+* Optimasi performa sistem
+* Penambahan fitur sesuai kebutuhan bisnis
+
+Log Laravel dapat ditemukan pada:
+
+```text
+storage/logs/laravel.log
+```
+
+---
+
+## 📄 Lisensi
+
+Project ini dikembangkan untuk keperluan akademik dan penelitian.
+
+---
+
+## 👨‍💻 Developer
+
+**Salman Yuris Adila Azzami**
+
+Sistem Informasi
+Universitas Dian Nuswantoro
+
+---
+
+<p align="center">
+  Dibuat menggunakan ❤️ dengan Laravel
+</p>
