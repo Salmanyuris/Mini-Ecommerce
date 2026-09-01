@@ -90,7 +90,7 @@ Pastikan perangkat telah memiliki:
 
 - PHP 8.2 atau versi diatasnya yang sesuai dengan Laravel
 - Composer
-- MySQL atau MariaDB
+- Database MySQL atau MariaDB
 - Node.js
 - NPM
 - Git
