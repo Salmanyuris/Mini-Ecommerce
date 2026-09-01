@@ -9,7 +9,7 @@
 </head>
 <body class="bg-gray-100">
     <div class="flex">
-        <!-- Sidebar -->
+        <!-- Sidebar  -->
         @include('components.admin-sidebar')
 
         <!-- Main Content -->
