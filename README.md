@@ -352,7 +352,7 @@ Berdasarkan hasil pengujian yang dilakukan, terdapat **37 test case** dan seluru
 
 Sistem menerapkan beberapa mekanisme keamanan, antara lain:
 
-- Autentikasi pengguna
+- Autentikasi user
 - Pembatasan akses berdasarkan role
 - Middleware autentikasi
 - Middleware administrator
