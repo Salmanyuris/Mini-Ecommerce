@@ -1,6 +1,6 @@
 # KIMIA UTAMA SARI E-COMMERCE
 
-<h1 align="center">
+<h1 style="text-align: center;">
   Sistem Penjualan Online Berbasis Web (E-Commerce)
 </h1>
 
