@@ -151,7 +151,7 @@ Buat database MySQL dengan nama:
 kimia_utama_sari
 ```
 
-Kemudian sesuaikan konfigurasi database pada file `.env`:
+Kemudian edit dan sesuaikan konfigurasi database pada file `.env`:
 
 ```env
 DB_CONNECTION=mysql
