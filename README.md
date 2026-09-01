@@ -215,7 +215,7 @@ npm run build
 ### 10. Jalankan Aplikasi
 
 ```bash
-php artisan serve
+php artisan serve 
 ```
 
 Aplikasi dapat diakses melalui:
@@ -243,7 +243,7 @@ Sistem memiliki beberapa role pengguna sebagai berikut:
 Proses pembelian pada sistem dilakukan melalui tahapan berikut:
 
 ```text
-Pilih Produk
+Pilih Produk yang dibutuhkan
       ↓
 Lihat Detail Produk
       ↓
