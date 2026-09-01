@@ -402,7 +402,7 @@ APP_URL=https://domain-anda.com
 
 ## 🔧 Maintenance
 
-Pemeliharaan sistem dilakukan secara berkala untuk menjaga stabilitas dan keamanan aplikasi.
+Maintenance pada sistem dilakukan secara berkala untuk menjaga stabilitas dan keamanan aplikasi.
 
 Beberapa aktivitas maintenance meliputi:
 
