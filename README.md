@@ -62,9 +62,9 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 ### 📊 Pemilik / Owner
 
-- Melihat laporan penjualan
+- Melihat (view) laporan penjualan
 - Monitoring transaksi
-- Melihat informasi pesanan
+- View informasi pesanan
 - Melakukan evaluasi aktivitas penjualan
 
 ---
