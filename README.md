@@ -18,7 +18,7 @@ Sistem ini dikembangkan sebagai bagian dari penelitian dengan judul:
 
 > **Rancang Bangun Sistem Penjualan Online Berbasis Web (E-Commerce) Menggunakan Metode Waterfall pada UD. Kimia Utama Sari Kota Semarang**
 
-Aplikasi ini memungkinkan konsumen untuk melihat produk, mencari produk, memasukkan produk ke keranjang belanja, melakukan checkout, serta mengunggah bukti pembayaran.
+Sistem ini memungkinkan konsumen untuk melihat produk, mencari produk, memasukkan produk ke keranjang belanja, melakukan checkout, serta mengunggah bukti pembayaran.
 
 Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, serta melakukan verifikasi pembayaran. Sistem juga menyediakan laporan penjualan untuk membantu pemilik dalam melakukan monitoring terhadap aktivitas penjualan toko.
 
