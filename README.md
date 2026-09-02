@@ -47,9 +47,9 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 - Dashboard admin
 - Manajemen produk
-    - Tambah produk
-    - Edit produk
-    - Hapus produk
+    - Add product
+    - Edit product
+    - Delete product
 
 - Manajemen kategori
 - Manajemen pesanan
