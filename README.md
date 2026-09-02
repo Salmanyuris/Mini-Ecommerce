@@ -28,7 +28,7 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 
 ### 👤 Konsumen
 
-- Registrasi akun
+- Registrasi user
 - Login dan logout
 - Melihat katalog produk
 - Mencari produk
