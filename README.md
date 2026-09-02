@@ -38,9 +38,9 @@ Selain itu, administrator dapat mengelola produk, kategori, pesanan, pengguna, s
 - Menghapus produk dari keranjang
 - Melakukan checkout
 - Mengisi informasi pengiriman
-- Mengunggah bukti pembayaran
+- Mengunggah bukti payment
 - Melihat riwayat pesanan
-- Melihat status pesanan
+- Melihat status pesanann
 - Mengonfirmasi penerimaan barang
 
 ### 👨‍💼 Administrator
