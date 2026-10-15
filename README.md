@@ -1,4 +1,4 @@
-# KIMIA UTAMA SARI E-COMMERCE
+<p align="center">(strong)KIMIA UTAMA SARI E-COMMERCE </strong></p>
 
 <p align="center">
   <strong>Sistem Penjualan Online Berbasis Web (E-Commerce)</strong>
