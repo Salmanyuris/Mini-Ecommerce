@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Dibangun menggunakan Laravel, MySQL, Tailwind CSS, dan Vite.
+  Dibangun menggunakan Framework Laravel 12, Database MySQL, Tailwind CSS, dan Vite.
 </p>
 
 ---
@@ -102,7 +102,7 @@ Pastikan perangkat telah memiliki:
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone <(https://github.com/Salmanyuris/Mini-Ecommerce.git)>
 ```
 
 Masuk ke folder project:
